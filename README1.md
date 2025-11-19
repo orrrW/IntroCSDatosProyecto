@@ -1,4 +1,4 @@
-# **Análisis de la Relación entre Contaminación Atmosférica y Enfermedades Respiratorias en Santiago de Chile (2017--2019)**
+# **Impacto de la contaminación por material particulado en la salud respiratoria de los habitantes de Santiago de Chile (2017--2019)**
 
 Este proyecto estudia cómo varían los casos de enfermedades respiratorias en relación con los niveles de contaminación atmosférica
 por material particulado fino (PM₂₅) en la Región Metropolitana de Santiago entre 2017 y 2019.
