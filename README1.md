@@ -79,7 +79,13 @@ Los datos muestran una relación estacional clara: los aumentos de PM₂₅ dura
     ├── 1era Entrega/
     │   └── Informe de Propuesta Inicial
     ├── 2da Entrega/
+    │   ├── data/
+    │   │   ├── Comunas/
+    │   │   ├── Estaciones17-19/
+    │   │   └── REM/
     │   ├── información y contexto.ipynb
     │   └── relacion_PM_con_mapa_comunas_y_pacientes (unificación).ipynb
-    ├── 3era Entrega
+    ├── 3era Entrega/
+    │   ├── 3era Entrega.ipynb
+    │   └── Notebook_E3.ipynb
     └── README.md
