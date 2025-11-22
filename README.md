@@ -51,12 +51,17 @@ El análisis se centró exclusivamente en:
 1.  Recolección de datos desde plataformas oficiales.
 2.  Limpieza y estandarización de fechas, comunas y registros numéricos.
 3.  Análisis Exploratorio de Datos (EDA) mediante:
-    -   Gráficos de tendencia temporal.
-    -   Mapas y visualizaciones geográficas.
-    -   Promedios por mes y por comuna.
+    - Numérico 
+        - Estadísticas descriptivas 
+    - Visual: 
+        - Gráficos de líneas (Gráficos de tendencia temporal y Promedios por mes y comuna)
+        - Gráficos boxplot
+        - Gráficos heatmap (para estudiar relaciones y distribuciones entre las variables)
+        - Mapas y visualizaciones geográficas.
 4.  Comparación temporal entre:
     -   Niveles de PM₂₅.
     -   Número de pacientes por causas respiratorias.
+
 
 ## **Resultados Principales**
 
@@ -72,6 +77,30 @@ El análisis se centró exclusivamente en:
 ## **Conclusiones**
 
 Los datos muestran una relación estacional clara: los aumentos de PM₂₅ durante el invierno coinciden con incrementos en enfermedades respiratorias. Sin embargo, no se observó una asociación espacial directa entre comunas, posiblemente debido a limitaciones en la cobertura de datos.
+
+### 1. Vínculo Cuantificado y Evaluación de Modelos
+El análisis de series de tiempo por comuna demostró que el material particulado fino PM2.5 es un predictor significativo, pero heterogéneo, de la demanda de atenciones de urgencia respiratoria (REM) en Santiago.
+
+#### A. Desempeño y Predictibilidad
+Luego de realizar unos modelos para evaluar el alineamiento de los datos, se logra observar que los modelos más confiables son aquellos que en ciertas comunas presentan un R^2 alto y MSE bajo; esta condición se cumple levemente en las comunas de Quilicura y Talagante, donde cerca del 30% de la variabilidad de las atenciones de urgencias se explica por el PM25 rezagado, con error cuadrático promedio de  ~ 110 a 116 atenciones al cuadrado. EN contraste, el alto MSE de Puente alto  (≈ 255) confirma que la regresión lineal es un modelo inadecuado para esa comuna, probablemente debido a factores no lineales o la influencia de otras variables.
+
+#### B. El Mecanismo Temporal (Lag)
+El resago o retraso temporal óptimo varía entre 0 y 7 días, lo que sugiere que el PM25 activa diferentes mecanismos biológicos y conductuales:
+- **Efecto Sub-Agudo/Acumulativo (6-7 días):** Dominante en Quilicura y Talagante. La correlación más fuerte ocurre a la semana, implicando que el daño se relaciona con la exposición sostenida, activando o agravando condiciones crónicas (asma, EPOC).
+- **Efecto Agudo (2 días):** Visto en Cerro Navia y Las Condes, reflejando respuestas inflamatorias inmediatas.
+
+### 2. Correlación Inversa
+Las comunas con el PM25 más alto (ej. Pudahuel y Puente Alto) presentan coeficientes Beta negativos. Esto significa que cuando la contaminación sube, la demanda de urgencias reportada tiende a bajar.
+
+## Recomendaciones de Políticas Públicas Estratégicas
+
+El principio clave es la diferenciación geográfica y temporal de las estrategias:
+1.	**Focalización de la Inversión Sanitaria (Regla del R^2):** Los recursos para predicción y alerta deben centrarse en Quilicura y Talagante, ya que el modelo de PM_{25} es el más fiable y eficiente para anticipar la demanda de salud (R^2 ≈ 30%).
+
+2.	**Sistema de Alerta con Doble Horizonte Temporal:**
+- **Alerta de Urgencia:** Activar la movilización de personal y camas en comunas como Cerro Navia con 48 horas de anticipación ante peaks pronosticados.
+- **Alerta Preventiva y Crónica:** Activar campañas de seguimiento telefónico y entrega anticipada de medicamentos a pacientes crónicos en Quilicura y Talagante ante la proyección de una semana de alta polución.
+3.	**Cuantificación del Beneficio Económico (Uso del Beta):** El coeficiente Beta permite monetizar el impacto de la reducción de la contaminación. Por ejemplo, en Quilicura, la reducción sostenida de 1mu g/m^3 de PM25 ahorraría el costo de 0.346 atenciones diarias de urgencia, justificando la inversión en políticas de control de emisiones.
 
 ## **Estructura del Repositorio**
 
