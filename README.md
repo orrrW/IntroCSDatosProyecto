@@ -1,7 +1,7 @@
 # **Impacto de la contaminación por material particulado en la salud respiratoria de los habitantes de Santiago de Chile (2017-2019)**
 
 Este proyecto estudia cómo varían los casos de enfermedades respiratorias en relación con los niveles de contaminación atmosférica
-por material particulado fino (PM₂.₅) en la Región Metropolitana de Santiago entre 2017 y 2019.
+por material particulado fino ($PM_{2.5}$) en la Región Metropolitana de Santiago entre 2017 y 2019.
 
 La motivación surge del persistente problema de calidad del aire en Santiago, donde los niveles de PM₂.₅ superan ampliamente los estándares
 recomendados por la OMS y se intensifican durante los meses de invierno, coincidiendo con aumentos en enfermedades respiratorias reportados por
@@ -80,7 +80,7 @@ El análisis se centró exclusivamente en:
 El análisis de series de tiempo por comuna demostró que el material particulado fino PM₂.₅ es un predictor significativo, pero heterogéneo, de la demanda de atenciones de urgencia respiratoria (REM) en Santiago.
 
 #### A. Desempeño y Predictibilidad
-Luego de realizar unos modelos para evaluar el alineamiento de los datos, se logra observar que los modelos más confiables son aquellos que en ciertas comunas presentan un $`R^2`$ alto y MSE bajo; esta condición se cumple levemente en las comunas de Quilicura y Talagante, donde cerca del 30% de la variabilidad de las atenciones de urgencias se explica por el PM₂.₅ rezagado, con error cuadrático promedio de  ~ 110 a 116 atenciones al cuadrado. EN contraste, el alto MSE de Puente alto  (≈ 255) confirma que la regresión lineal es un modelo inadecuado para esa comuna, probablemente debido a factores no lineales o la influencia de otras variables.
+Luego de realizar unos modelos para evaluar el alineamiento de los datos, se logra observar que los modelos más confiables son aquellos que en ciertas comunas presentan un $`R^{2}`$ alto y MSE bajo; esta condición se cumple levemente en las comunas de Quilicura y Talagante, donde cerca del 30% de la variabilidad de las atenciones de urgencias se explica por el PM₂.₅ rezagado, con error cuadrático promedio de  ~ 110 a 116 atenciones al cuadrado. EN contraste, el alto MSE de Puente alto  (≈ 255) confirma que la regresión lineal es un modelo inadecuado para esa comuna, probablemente debido a factores no lineales o la influencia de otras variables.
 
 #### B. El Mecanismo Temporal (Lag)
 El resago o retraso temporal óptimo varía entre 0 y 7 días, lo que sugiere que el PM₂.₅ activa diferentes mecanismos biológicos y conductuales:
@@ -93,7 +93,7 @@ Las comunas con el PM₂.₅ más alto (ej. Pudahuel y Puente Alto) presentan co
 ## Recomendaciones de Políticas Públicas Estratégicas
 
 El principio clave es la diferenciación geográfica y temporal de las estrategias:
-1.	**Focalización de la Inversión Sanitaria (Regla del $`R^2`$):** Los recursos para predicción y alerta deben centrarse en Quilicura y Talagante, ya que el modelo de PM₂.₅ es el más fiable y eficiente para anticipar la demanda de salud ($`R^2`$ ≈ 30%).
+1.	**Focalización de la Inversión Sanitaria (Regla del $`R^{2}`$):** Los recursos para predicción y alerta deben centrarse en Quilicura y Talagante, ya que el modelo de PM₂.₅ es el más fiable y eficiente para anticipar la demanda de salud ($`R^{2}`$ ≈ 30%).
 
 2.	**Sistema de Alerta con Doble Horizonte Temporal:**
 - **Alerta de Urgencia:** Activar la movilización de personal y camas en comunas como Cerro Navia con 48 horas de anticipación ante peaks pronosticados.
