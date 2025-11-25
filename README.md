@@ -100,7 +100,7 @@ El principio clave es la diferenciación geográfica y temporal de las estrategi
 - **Alerta Preventiva y Crónica:** Activar campañas de seguimiento telefónico y entrega anticipada de medicamentos a pacientes crónicos en Quilicura y Talagante ante la proyección de una semana de alta polución.
 3.	**Cuantificación del Beneficio Económico (Uso del Beta):** El coeficiente Beta permite monetizar el impacto de la reducción de la contaminación. Por ejemplo, en Quilicura, la reducción sostenida de 1mμ g/m³ de PM₂₅ ahorraría el costo de 0.346 atenciones diarias de urgencia, justificando la inversión en políticas de control de emisiones.
 
-## **Estructura del Repositorio**²⁭³²
+## **Estructura del Repositorio**
 
     IntroCSDatosProyecto/
     ├── 1era Entrega/
