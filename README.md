@@ -120,19 +120,68 @@ El principio clave es la diferenciación geográfica y temporal de las estrategi
 
     IntroCSDatosProyecto/
     ├── 1era Entrega/
-    │   └── Informe de Propuesta Inicial
+    │   └── Propuesta. Impacto del clima, contaminacion y condicion econocmica en la salud respiratoria.pdf
     ├── 2da Entrega/
     │   ├── data/
     │   │   ├── Comunas/
+    │   │   │   └── Comunas.zip
     │   │   ├── Estaciones17-19/
+    │   │   │   ├── Cerronavia17-19.csv
+    │   │   │   ├── Elbosque17-19.csv
+    │   │   │   ├── Independencia17-19.csv
+    │   │   │   ├── Laflorida17-19.csv
+    │   │   │   ├── Lascondes17-19.csv
+    │   │   │   ├── ParqueOHiggins17-19.csv
+    │   │   │   ├── Pudahuel17-19.csv
+    │   │   │   ├── Puentealto17-19.csv
+    │   │   │   ├── Quilicura17-19.csv
+    │   │   │   └── Talagante17-19.csv
     │   │   └── REM/
+    │   │   │   ├── df_REM_2017.csv
+    │   │   │   ├── df_REM_2018.csv
+    │   │   │   ├── df_REM_2019.csv
+    │   │   │   ├── REM_2017.zip
+    │   │   │   ├── REM_2018.zip
+    │   │   │   └── REM_2019.zip
     │   ├── información y contexto.ipynb
     │   └── relacion_PM_con_mapa_comunas_y_pacientes (unificación).ipynb
     ├── 3era Entrega/
     │   ├── data/
     │   │   ├── Comunas/
+    │   │   │   ├── comunas.CPG
+    │   │   │   ├── comunas.dbf
+    │   │   │   ├── comunas.prj
+    │   │   │   ├── comunas.sbn
+    │   │   │   ├── comunas.sbx
+    │   │   │   ├── comunas.shp
+    │   │   │   ├── comunas.shp.xml
+    │   │   │   ├── comunas.shx
+    │   │   │   └── Comunas.zip
     │   │   ├── Estaciones17-19/
+    │   │   │   ├── Cerronavia17-19.csv
+    │   │   │   ├── Elbosque17-19.csv
+    │   │   │   ├── Independencia17-19.csv
+    │   │   │   ├── Laflorida17-19.csv
+    │   │   │   ├── Lascondes17-19.csv
+    │   │   │   ├── ParqueOHiggins17-19.csv
+    │   │   │   ├── Pudahuel17-19.csv
+    │   │   │   ├── Puentealto17-19.csv
+    │   │   │   ├── Quilicura17-19.csv
+    │   │   │   └── Talagante17-19.csv
     │   │   └── REM/
+    │   │   │   ├── df_REM_2017.csv
+    │   │   │   ├── df_REM_2018.csv
+    │   │   │   └── df_REM_2019.csv
     │   ├── 3era Entrega.ipynb
     │   └── Notebook_E3.ipynb
+    ├── img/
+    │   ├── comparación_promedio_pacientes_vs_promedio_PM25.png
+    │   ├── mapa_correlacion_PM25_pacientes_por_comuna_con_retraso.png
+    │   ├── Mapa_medidores_PM25.png
+    │   ├── Promedio_mensual_Pacientes_17.png
+    │   ├── Promedio_mensual_Pacientes_18.png
+    │   ├── Promedio_mensual_Pacientes_19.png
+    │   ├── Promedio_mensual_PM25_17_19.png
+    │   └── Promedio_mensual_PM25_porAño.png
+    ├── .gitignore
     └── README.md
