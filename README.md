@@ -70,7 +70,7 @@ El análisis se centró exclusivamente en:
 <p align="center">
   <img src="img/Promedio_mensual_Pacientes_17.png" width="400"/> <img src="img/Promedio_mensual_Pacientes_18.png" width="400"/> <img src="img/Promedio_mensual_Pacientes_19.png" width="400"/>
   
-  <img src="img/Promedio_mensual_PM25_17_19.png" width="400"/>
+  <img src="img/Promedio_mensual_PM25_17_19.png" width="300"/>
 </p>
 
 -   El patrón temporal confirma **diferencias estacionales marcadas**, con picos en invierno.
@@ -101,6 +101,10 @@ El resago o retraso temporal óptimo varía entre 0 y 7 días, lo que sugiere qu
 
 ### 2. Correlación Inversa
 Las comunas con el PM₂₅ más alto (ej. Pudahuel y Puente Alto) presentan coeficientes Beta negativos. Esto significa que cuando la contaminación sube, la demanda de urgencias reportada tiende a bajar.
+
+<p align="center">
+  <img src="img/mapa_correlacion_PM25_pacientes_por_comuna_con_retraso.png" width="400"/>
+</p>
 
 ## Recomendaciones de Políticas Públicas Estratégicas
 
