@@ -77,7 +77,7 @@ El análisis se centró exclusivamente en:
 -   No existe correlación geográfica clara entre comunas con mayor polución y aquellas con mayor número de pacientes:
 
 <p align="center">
-  <img src="img/comparación_promedio_pacientes_vs_promedio_PM25.png" width="600"/>
+  <img src="img/comparación_promedio_pacientes_vs_promedio_PM25.png" width="700"/>
 </p>
 
 -   Las diferencias pueden deberse a:
@@ -103,7 +103,7 @@ El resago o retraso temporal óptimo varía entre 0 y 7 días, lo que sugiere qu
 Las comunas con el PM₂₅ más alto (ej. Pudahuel y Puente Alto) presentan coeficientes Beta negativos. Esto significa que cuando la contaminación sube, la demanda de urgencias reportada tiende a bajar.
 
 <p align="center">
-  <img src="img/mapa_correlacion_PM25_pacientes_por_comuna_con_retraso.png" width="400"/>
+  <img src="img/mapa_correlacion_PM25_pacientes_por_comuna_con_retraso.png" width="700"/>
 </p>
 
 ## Recomendaciones de Políticas Públicas Estratégicas
