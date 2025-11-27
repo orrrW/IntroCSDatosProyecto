@@ -65,17 +65,21 @@ El análisis se centró exclusivamente en:
 
 ## **Resultados Principales**
 
--   Se observa un **aumento simultáneo** de contaminación y casos respiratorios en los meses fríos (mayo--agosto).
+-   Se observa un **aumento simultáneo** de contaminación y casos respiratorios en los meses fríos (mayo--agosto):
 
 <p align="center">
   <img src="img/Promedio_mensual_Pacientes_17.png" width="400"/> <img src="img/Promedio_mensual_Pacientes_18.png" width="400"/> <img src="img/Promedio_mensual_Pacientes_19.png" width="400"/>
   
-  <img src="img/Promedio_mensual_PM25_17_19.png" width="500"/>
+  <img src="img/Promedio_mensual_PM25_17_19.png" width="400"/>
 </p>
 
-
 -   El patrón temporal confirma **diferencias estacionales marcadas**, con picos en invierno.
--   No existe correlación geográfica clara entre comunas con mayor polución y aquellas con mayor número de pacientes.
+-   No existe correlación geográfica clara entre comunas con mayor polución y aquellas con mayor número de pacientes:
+
+<p align="center">
+  <img src="img/comparación_promedio_pacientes_vs_promedio_PM25.png" width="400"/>
+</p>
+
 -   Las diferencias pueden deberse a:
     -   Coberturas desiguales de sensores,
     -   Variaciones poblacionales,
