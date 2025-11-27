@@ -67,13 +67,13 @@ El análisis se centró exclusivamente en:
 
 -   Se observa un **aumento simultáneo** de contaminación y casos respiratorios en los meses fríos (mayo--agosto).
 
-![Img_1](Promedio_mensual_Pacientes_17.png)
+<img src="/img/Promedio_mensual_Pacientes_17.png" width="300" height="200">
 
-![Img_2](Promedio_mensual_Pacientes_18.png)
+![Img_2](/img/Promedio_mensual_Pacientes_18.png)
 
-![Img_3](Promedio_mensual_Pacientes_19.png)
+![Img_3](/img/Promedio_mensual_Pacientes_19.png)
 
-![Img_4](Promedio_mensual_PM25_17_19.png)
+![Img_4](/img/Promedio_mensual_PM25_17_19.png)
 
 
 -   El patrón temporal confirma **diferencias estacionales marcadas**, con picos en invierno.
