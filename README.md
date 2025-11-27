@@ -77,7 +77,7 @@ El análisis se centró exclusivamente en:
 -   No existe correlación geográfica clara entre comunas con mayor polución y aquellas con mayor número de pacientes:
 
 <p align="center">
-  <img src="img/comparación_promedio_pacientes_vs_promedio_PM25.png" width="400"/>
+  <img src="img/comparación_promedio_pacientes_vs_promedio_PM25.png" width="600"/>
 </p>
 
 -   Las diferencias pueden deberse a:
